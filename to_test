@@ -1,0 +1,4 @@
+null pointer
+non-null terminated string
+string length is a multiple of 16 when scanning backward
+16 bytes size chunk containing a '\0' and then a diff (strcmp family) -> should return 0
